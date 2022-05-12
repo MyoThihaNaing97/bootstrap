@@ -1,0 +1,12 @@
+table{
+    background-color: #fff;
+    overflow: hidden;
+
+}
+body{
+    background-image: url(bg1.jpg);
+}
+.container{
+ padding: 30px;
+ margin: 20px;
+}
