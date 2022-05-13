@@ -59,6 +59,8 @@ a.hover,a.fb,a.google,a.twitter{
 }
 body{
     background-image: url(bg1.jpg);
+    justify-content: center;
+    align-items: center;
 }
 .form-check{
     justify-content: space-between;
