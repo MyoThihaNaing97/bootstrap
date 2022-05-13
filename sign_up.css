@@ -29,9 +29,18 @@ body{
     background-color: #ddd;
     outline: none;
  }
- .btn{
+ .back{
+    justify-content: right;
+    align-items: right;
     padding: 20px;
-    width: 50%;
+    width: 30%;
+ }
+ .signupbtn{
+    justify-content: left;
+    align-items: left;
+   padding: 20px;
+   margin-right: 50px;
+   width: 30%;
  }
  .container{
     margin: 30px;
@@ -88,4 +97,13 @@ body{
     height: 40%;
     width: 40%;
    } 
+}
+@media (min-width:390px){
+   .container{
+      width:360px;
+   }
+   form{
+      justify-content: center;
+      height: 50%;
+   }
 }
