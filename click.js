@@ -16,12 +16,9 @@ function validate() {
     else{
         msg1.textContent="";
     }
-    if(email ==""){
+    if(!mailRegex.test(email)){
         document.getElementById('msg2').textContent="Please fill email";
         document.getElementById('msg2').style.color="red";
-    }else if(email.value.match(mailRegex)){
-       document.getElementById('msg2').textContent="Email Valid";
-        document.getElementById('msg2').style.color="green";
     }
     else {
         msg2.textContent="";
@@ -33,13 +30,13 @@ function validate() {
     else{
         msg3.textContent="";
     }
-    if(repwd ==""){
+    if(repwd != password){
         document.getElementById('msg4').textContent="Please fill password";
         document.getElementById('msg4').style.color="red";
     }else{
         msg4.textContent="";
     }
 
-    // msg.textContent="";
-    
+
+    // msg.textContent="";  
 }
