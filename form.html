@@ -12,6 +12,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="validate.js"></script>
 </head>
 <body>
     <form class="container">
@@ -20,7 +21,7 @@
         </span>
         <div class="mb-3 mt-3">
           <label for="email" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          <input type="email" class="form-control" id="email" placeholder="Enter email or UserName" name="email">
         </div>
         <div class="mb-3">
           <label for="pwd" class="form-label">Password:</label>
@@ -37,7 +38,7 @@
         </div>
           </div>
         <div class="login">
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary" id="login">Login</button>
             <!-- <button type="signup" class="btn btn-primary">Sign Up</button> -->
             <a href="sign_up.html" class="btn btn-primary">Sign Up</a>
         </div>
