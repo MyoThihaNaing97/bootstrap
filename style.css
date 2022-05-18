@@ -13,6 +13,9 @@
     background: #fff;
     border-radius: 20px;
 }
+a{
+    color: white;
+}
 .btn{
     border-radius: 50px;
 }

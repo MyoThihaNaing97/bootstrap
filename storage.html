@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div >
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="password">Enter Your Password</label><br>
+        <input type="password" name="pwd" id="pwd"><br>
+        <button onclick="goHome()">Login</button>
+    </div>
+    <script type="text/javascript">
+        function goHome(){
+            var password =document.getElementById('pwd').value;
+            var email =document.getElementById('email').value;
+            localStorage.setItem("mail", email );
+            localStorage.setItem('password',password);
+            localStorage.removeItem('password');
+         window.open('home.html');
+        }
+         
+    </script>
+</body>
+</html>

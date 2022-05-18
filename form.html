@@ -12,7 +12,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="validate.js"></script>
+    
 </head>
 <body>
     <form class="container">
@@ -37,11 +37,7 @@
           </div> 
         </div>
           </div>
-        <div class="login">
-            <button type="submit" class="btn btn-primary" id="login">Login</button>
-            <!-- <button type="signup" class="btn btn-primary">Sign Up</button> -->
-            <a href="sign_up.html" class="btn btn-primary">Sign Up</a>
-        </div>
+        
         <div class="signup">
             <span>Login in With</span>
         </div>
@@ -51,5 +47,13 @@
             <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
         </div>
       </form>
+      <div>
+        <!-- <a class="btn btn-primary" id="login" onclick="goHome()">Login</a> -->
+        <button onclick="goHome()">Login</button>
+        <!-- <a href="home.html" class="btn btn-primary" id="login">Login</a> -->
+        <!-- <button type="signup" class="btn btn-primary">Sign Up</button> -->
+        <a href="sign_up.html" class="btn btn-primary">Sign Up</a>
+    </div>
+    <script src="validate.js"></script>
 </body>
 </html>

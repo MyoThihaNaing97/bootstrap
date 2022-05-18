@@ -21,3 +21,22 @@ var repassword = document.getElementById('repwd');
     return true;
    
 }
+// var login =document.getElementById('login');
+// login.addEventListener('click',function(){
+//     // if(document.getElementById('mail').value=="naokai28@gmail.com" && document.getElementById('pwd').value){
+//     //     localStorage.setItem("Email","email is naokai28@gmail.com");
+//     //     // localStorage.setItem('Password',);
+//     //     window.open('home.html');
+//     // }  
+//     var email =document.getElementById('mail').value;
+//     localStorage.setItem("mail", email )
+//     // window.open('home.html');
+// });
+function goHome(){
+    var email =document.getElementById('mail').value;
+    localStorage.setItem("mail", email )
+    window.open('home.html');
+}
+
+// window.localStorage.setItem("Email",document.getElementById('mail').value);
+    // window.localStorage.setItem("Password", document.getElementById('pwd'.value));

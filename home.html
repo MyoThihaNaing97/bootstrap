@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succesfully Login</title>
+    <p id="e_mail"> </p>
+    <p id="pwd"></p>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        
+        var getMail = localStorage.getItem('mail');
+        console.log(getMail);
+        document.getElementById("e_mail").innerHTML = getMail;
+        var getPwd =localStorage.getItem('password');
+        console.log(getPwd);
+        document.getElementById('pwd').innerHTML=getPwd
+        
+    </script>
+</body>
+</html>
